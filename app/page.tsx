@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <body>
       
       <main>
         <section>
@@ -13,7 +12,7 @@ export default function Home() {
             Ready_to_work:  true
             }`}
           </pre>
-          <img src="" alt="" />
+          <Image src="" alt="" />
         </section>
 
               <h1>Test</h1>
@@ -51,7 +50,6 @@ export default function Home() {
           <a href="">Mon linkedin</a>
         </section>
       </main>
-    </body>
 
   );
 }
