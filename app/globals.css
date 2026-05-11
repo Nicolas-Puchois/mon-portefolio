@@ -1,35 +1,32 @@
 @font-face {
   font-family: "Poppins";
-  src: url("../public/assets/font/poppins/Poppins.eot");
+  src: url("./assets/font/poppins/Poppins.eot");
   src:
-    url("../public/assets/font/poppins/Poppins.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/assets/font/poppins/Poppins.woff2") format("woff2"),
-    url("../public/assets/font/poppins/Poppins.woff") format("woff"),
-    url("../public/assets/font/poppins/Poppins.ttf") format("truetype"),
-    url("../public/assets/font/poppins/Poppins.svg") format("svg");
+    url("./assets/font/poppins/Poppins.eot?#iefix") format("embedded-opentype"),
+    url("./assets/font/poppins/Poppins.woff2") format("woff2"),
+    url("./assets/font/poppins/Poppins.woff") format("woff"),
+    url("./assets/font/poppins/Poppins.ttf") format("truetype"),
+    url("./assets/font/poppins/Poppins.svg") format("svg");
 }
 @font-face {
   font-family: "inter";
-  src: url("../public/assets/font/inter/Inter.eot");
+  src: url("./assets/font/inter/Inter.eot");
   src:
-    url("../public/assets/font/inter/Inter.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/assets/font/inter/Inter.woff2") format("woff2"),
-    url("../public/assets/font/inter/Inter.woff") format("woff"),
-    url("../public/assets/font/inter/Inter.ttf") format("truetype"),
-    url("../public/assets/font/inter/Inter.svg") format("svg");
+    url("./assets/font/inter/Inter.eot?#iefix") format("embedded-opentype"),
+    url("./assets/font/inter/Inter.woff2") format("woff2"),
+    url("./assets/font/inter/Inter.woff") format("woff"),
+    url("./assets/font/inter/Inter.ttf") format("truetype"),
+    url("./assets/font/inter/Inter.svg") format("svg");
 }
 @font-face {
   font-family: "fira";
-  src: url("../public/assets/font/fira/Fira.eot");
+  src: url("./assets/font/fira/Fira.eot");
   src:
-    url("../public/assets/font/fira/Fira.eot?#iefix")
-      format("embedded-opentype"),
-    url("../public/assets/font/fira/Fira.woff2") format("woff2"),
-    url("../public/assets/font/fira/Fira.woff") format("woff"),
-    url("../public/assets/font/fira/Fira.ttf") format("truetype"),
-    url("../public/assets/font/fira/Fira.svg") format("svg");
+    url("./assets/font/fira/Fira.eot?#iefix") format("embedded-opentype"),
+    url("./assets/font/fira/Fira.woff2") format("woff2"),
+    url("./assets/font/fira/Fira.woff") format("woff"),
+    url("./assets/font/fira/Fira.ttf") format("truetype"),
+    url("./assets/font/fira/Fira.svg") format("svg");
 }
 
 body {

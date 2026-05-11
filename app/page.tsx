@@ -2,9 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-      
+    
       <main>
         <section>
+          
           <pre> 
             {`const Nicolas = {
             Work_Post:      ['Backend_developper', 'Full-stack_developper', 'IT Support'],
