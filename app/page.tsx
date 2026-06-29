@@ -13,7 +13,7 @@ export default function Home() {
             Ready_to_work:  true
             }`}
           </pre>
-          <Image src="" alt="" />
+          {/* <Image src="" alt="" /> */}
         </section>
 
               <h1>Test</h1>

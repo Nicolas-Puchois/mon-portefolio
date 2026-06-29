@@ -1,7 +1,6 @@
-import "./globals.css";
+import "./styles/globals.css";
 import MainHeaders from "./components/header";
 import MainFooter from "./components/footer";
-
 
 
 export const metadata = {
@@ -16,7 +15,9 @@ export default function RootLayout({children}: Readonly<{
     <html
       lang="fr">
       <body className="min-h-full flex flex-col">
-        <MainHeaders />
+        
+        <MainHeaders/>
+        
         {children}
         <MainFooter />
       </body>

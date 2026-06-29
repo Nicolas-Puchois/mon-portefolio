@@ -1,18 +1,21 @@
 'use client';
+import styles from "./header.module.css";
 
 export default function mainHeaders(){
     return(
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">A propos</a></li>
-                <li><a href="">Projets</a></li>
-                <li><a href="">Compétences</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+    <header className={styles.header}>
+        <nav className={styles.navbar}>
+            <div className={styles.container}>
+                <ul className="nav-links">
+                    <li> <a href="."> <span> Accueil      </span>  </a>      </li>
+                    <li> <a href="."> <span> A propos     </span>  </a>      </li>
+                    <li> <a href="."> <span> Projets      </span>  </a>      </li>
+                    <li> <a href="."> <span> Compétences  </span>  </a>      </li>
+                    <li> <a href="."> <span> Contact      </span>  </a>      </li>
+                    <li> <button id="toggle-dark-mode"></button>            </li>
+                </ul>
+            </div>
         </nav>
-        <button></button>
     </header>
     )
 };
