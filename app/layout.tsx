@@ -13,7 +13,10 @@ export default function RootLayout({children}: Readonly<{
 }>) {
   return (
     <html
-      lang="fr">
+      lang="fr"
+      data-theme="light">
+        <meta charSet="UTF-8"/>
+
       <body className="min-h-full flex flex-col">
         
         <MainHeaders/>

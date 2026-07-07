@@ -1,3 +1,15 @@
+* {
+  --light-theme: #e0fbfc;
+  /* fond clair pour theme clair/ text clair pour theme sombre*/
+  --dark-theme: #042d3e;
+  /* fond sombre pour theme sombre/ text sombre pour theme clair*/
+  --light-link: #3d5a80;
+  --dark-link: #98c1d9;
+  --link-hover: #293241;
+  --button-color: #ee6c4d;
+  --button-hover: #c85a3a;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("../assets/font/poppins/Poppins.eot");
@@ -29,18 +41,6 @@
     url("../assets/font/fira/Fira.svg") format("svg");
 }
 
-body {
-  --light-theme: #e0fbfc;
-  /* fond clair pour theme clair/ text clair pour theme sombre*/
-  --dark-theme: #042d3e;
-  /* fond sombre pour theme sombre/ text sombre pour theme clair*/
-  --light-link: #3d5a80;
-  --dark-link: #98c1d9;
-  --link-hover: #293241;
-  --button-color: #ee6c4d;
-  --button-hover: #c85a3a;
-}
-
 * {
   border-radius: 12px;
   font-family: inter;
@@ -54,4 +54,16 @@ h3 {
 
 ul {
   list-style-type: none;
+}
+
+html[data-theme="light"] {
+  --bg-primary: var(--light-theme);
+  --bg-secondary: var(--dark-theme);
+  --text-primary: var(--dark-theme);
+}
+
+html[data-theme="dark"] {
+  --bg-primary: var(--dark-theme);
+  --bg-secondary: var(--light-theme);
+  --text-primary: var(--light-theme);
 }

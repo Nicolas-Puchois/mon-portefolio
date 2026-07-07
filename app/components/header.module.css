@@ -1,6 +1,6 @@
 .header {
   .navbar {
-    background-color: black;
+    background-color: var(--bg-secondary);
     .container {
       display: flex;
     }
