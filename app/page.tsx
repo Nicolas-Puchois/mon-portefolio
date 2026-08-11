@@ -1,18 +1,18 @@
-import Image from "next/image";
+import StylesMain from "./styles/main.module.css";
 
 export default function Home() {
   return (
     
-      <main>
-        <section>
+      <main className={StylesMain.main}>
+        <section className={StylesMain.hero_container}>
           
-          <pre> 
+          <section> 
             {`const Nicolas = {
             Work_Post:      ['Backend_developper', 'Full-stack_developper', 'IT Support'],
             Hobbies:        ['History', 'Video Games', 'Learn new things'],
             Ready_to_work:  true
             }`}
-          </pre>
+          </section>
           {/* <Image src="" alt="" /> */}
         </section>
 

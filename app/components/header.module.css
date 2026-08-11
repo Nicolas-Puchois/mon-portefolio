@@ -10,23 +10,13 @@
 
     .container {
       display: flex;
-      justify-items: center;
-      align-items: center;
+      justify-content: center;
+      align-content: start;
       position: relative;
       background-color: var(--bg-secondary);
 
       .toggle {
         display: none;
-
-        .sr_only {
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          padding: 0;
-          margin: -1px;
-          overflow: hidden;
-          border: 0;
-        }
       }
       ul.nav_links {
         display: flex;
@@ -42,6 +32,12 @@
             align-items: center;
             gap: 0.5rem;
             padding: 0.5rem;
+            text-decoration: none;
+          }
+          button {
+            background: none;
+            border: none;
+            cursor: pointer;
           }
         }
       }

@@ -1,0 +1,6 @@
+.main {
+  background-color: var(--bg-primary);
+  .hero_container {
+    display: grid;
+  }
+}

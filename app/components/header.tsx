@@ -7,7 +7,7 @@ export default function mainHeaders(){
         <nav className={styles.navbar}>
             <div className={styles.container}>
                 <button className={styles.toggle}>
-                    <span className={styles.sr_only}> &#9776</span>
+                    <span className={styles.sr_only}> </span> &#9776;
                 </button>
                 <ul className={styles.nav_links}>
                     <li> <a href="."> <span> Accueil      </span>  </a>      </li>
@@ -15,7 +15,7 @@ export default function mainHeaders(){
                     <li> <a href="."> <span> Projets      </span>  </a>      </li>
                     <li> <a href="."> <span> Compétences  </span>  </a>      </li>
                     <li> <a href="."> <span> Contact      </span>  </a>      </li>
-                    <li> <button id="toggle-dark-mode"></button>            </li>
+                    <li> <button id="toggle-dark-mode"> 🌙☀️ </button>            </li>
                 </ul>
             </div>
         </nav>
