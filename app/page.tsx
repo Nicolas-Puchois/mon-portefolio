@@ -7,13 +7,15 @@ export default function Home() {
       <main className={StylesMain.main}>
         <section className={StylesMain.hero_container}>
           
-          <section> 
-            {`const Nicolas = {
-            Work_Post:      ['Backend_developper', 'Full-stack_developper', 'IT Support'],
-            Hobbies:        ['History', 'Video Games', 'Learn new things'],
-            Ready_to_work:  true
-            }`}
+          <section className={StylesMain.hero_text}>
+
+            <div>{`const Nicolas = { `} </div> 
+            <div>{` Work_Post:      ['Backend_developper', 'Full-stack_developper', 'IT Support'],  `}</div>
+            <div>{` Hobbies:        ['History', 'Video Games', 'Learn new things'],                 `}</div>
+            <div>{` Ready_to_work:  true                                                            `}</div>
+            <div>{` }                                                                               `}</div>
           </section>
+          
           <section>
             
               <Image src="/images/setup.jpg" alt="photo de mon ordinateur fixe avec une tour sur la gauche, deux écran, un micro, un casque bluetooth un clavier et une souris sur son tapis de souris" className={StylesMain.hero_image} width={500} height={500}></Image>
@@ -30,8 +32,6 @@ export default function Home() {
 
         <section>
           <h2> Mes projets</h2>
-          <div></div>
-          <div></div>
 
           <button> Pour voir l&apos;ensemble de mes projets, cliquer ici</button>
         </section>
