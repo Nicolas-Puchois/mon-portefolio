@@ -1,6 +1,15 @@
 .main {
   background-color: var(--bg-primary);
   .hero_container {
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero_image {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  .titre {
+    display: none;
   }
 }

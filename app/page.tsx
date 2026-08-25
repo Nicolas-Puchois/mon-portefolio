@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import StylesMain from "./styles/main.module.css";
 
 export default function Home() {
@@ -13,10 +14,13 @@ export default function Home() {
             Ready_to_work:  true
             }`}
           </section>
-          {/* <Image src="" alt="" /> */}
+          <section>
+            
+              <Image src="/images/setup.jpg" alt="photo de mon ordinateur fixe avec une tour sur la gauche, deux écran, un micro, un casque bluetooth un clavier et une souris sur son tapis de souris" className={StylesMain.hero_image} width={500} height={500}></Image>
+          </section>
         </section>
 
-              <h1>Test</h1>
+              <h1 className={StylesMain.titre}>Nicolas Puchois</h1>
 
         <section>
           <h2>A propos</h2>
