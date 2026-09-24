@@ -30,10 +30,34 @@ export default function Home() {
         </section>
 
 
-        <section>
+        <section className={StylesMain.projet}>
           <h2> Mes projets</h2>
+            <section className={StylesMain.projet_card}>
+              <h3> Projet 1</h3>
+              <p> Description du projet</p>
+              technos utilisée
+              <ul>
+                <li> react</li>
+                <li> typescript</li>
+              </ul>
+              <a href=""> lien du repo du projet </a>
+              <a href=""> lien vers le site (si existant)</a> 
+            </section>
 
-          <button> Pour voir l&apos;ensemble de mes projets, cliquer ici</button>
+            <section className={StylesMain.projet_card}>
+              <h3> Projet 1</h3>
+              <p> Description du projet</p>
+              technos utilisée
+              <ul>
+                <li> react</li>
+                <li> typescript</li>
+              </ul>
+              <a href=""> lien du repo du projet </a>
+              <a href=""> lien vers le site (si existant)</a> 
+            </section>
+
+            <a href="">Pour voir l&apos;ensemble de mes projets, cliquer ici</a>
+            
         </section>
 
         <section>

@@ -22,4 +22,15 @@
   .titre {
     display: none;
   }
+
+  .projet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .projet_card {
+      background-color: var(--bg-secondary);
+      border: 1px solid;
+      color: var(--text-secondary);
+    }
+  }
 }

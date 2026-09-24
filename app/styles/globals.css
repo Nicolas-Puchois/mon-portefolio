@@ -60,10 +60,12 @@ html[data-theme="light"] {
   --bg-primary: var(--light-theme);
   --bg-secondary: var(--dark-theme);
   --text-primary: var(--dark-theme);
+  --text-secondary: var(--light-theme);
 }
 
 html[data-theme="dark"] {
   --bg-primary: var(--dark-theme);
   --bg-secondary: var(--light-theme);
   --text-primary: var(--light-theme);
+  --text-secondary: var(--dark-theme);
 }
